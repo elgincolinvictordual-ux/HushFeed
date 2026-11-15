@@ -26,7 +26,12 @@ jobs:
 
       - name: Apply Smart stretch
         run: |
-          if [ -f smart-stretch.zip ]; then unzip -o smart-stretch.zip; else echo "no smart-stretch.zip, building as is"; fi
+          if [ -f smart-stretch.zip ]; then
+            unzip -o -q smart-stretch.zip -d .smart
+            python3 .smart/smart-stretch/apply.py
+          else
+            echo "no smart-stretch.zip, building as is"
+          fi
 
       - name: Build the patch bundle
         env:
@@ -53,4 +58,3 @@ jobs:
             build/reports/**
             patches/build/reports/**
           if-no-files-found: ignore
-          
