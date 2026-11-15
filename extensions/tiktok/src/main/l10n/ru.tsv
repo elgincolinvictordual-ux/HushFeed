@@ -1977,7 +1977,7 @@ A LIVE you swipe to comes back with its chat, gifts and buttons showing. This ke
 Dark LIVE panels in dark mode	Тёмные панели LIVE в тёмной теме
 With TikTok in dark mode, a LIVE room still opens its share menu, fan club and other panels in light colors. This opens them dark.	Даже в тёмной теме комната LIVE открывает меню «Поделиться», фан-клуб и другие панели в светлых цветах. С этим переключателем они открываются тёмными.
 Keep watching in a small window	Смотреть в маленьком окне
-When you leave TikTok while a video plays, it keeps playing in a small window over your other apps, with buttons to pause it and to go to the previous or next video. Works in the feed and on videos you open from a profile, search or a sound. Needs Android 8 or later.	Если выйти из TikTok во время воспроизведения видео, оно продолжит воспроизводиться в маленьком окне поверх других приложений, с кнопками паузы и перехода к предыдущему или следующему видео. Работает в ленте и в видео, открытых из профиля, поиска или звука. Требуется Android 8 или новее.
+When you leave TikTok while a video plays, it keeps playing in a small window over your other apps, with buttons to pause it and to go to the previous or next video. Works in the feed, in LIVEs and on videos you open from a profile, search or a sound. Needs Android 8 or later.	Если выйти из TikTok во время воспроизведения видео, оно продолжит воспроизводиться в маленьком окне поверх других приложений, с кнопками паузы и перехода к предыдущему или следующему видео. Работает в ленте, в LIVE и в видео, открытых из профиля, поиска или звука. Требуется Android 8 или новее.
 Play	Воспроизвести
 Pause	Пауза
 Posting	Публикация
@@ -3034,3 +3034,13 @@ Sort loaded videos in collections	Сортировать загруженные 
 Same as Favorites grids	Как в сетках «Избранное»
 Hide the summary on LIVE previews	Скрывать сводку в превью LIVE
 A LIVE in the feed can show a Summary card that sums up the stream. This keeps it hidden.	LIVE в ленте может показывать карточку «Сводка» с кратким описанием эфира. С этим она остаётся скрытой.
+Look up a commenter's country	Узнать страну автора комментария
+Press and hold a comment to find Show account country in its menu. It asks TikTok where that account is based, or where its latest videos were posted from.	Нажмите и удерживайте комментарий, чтобы найти в меню пункт «Показать страну аккаунта». Он спрашивает у TikTok, где находится этот аккаунт или откуда опубликованы его последние видео.
+Show account country	Показать страну аккаунта
+Account based in %1$s	Страна аккаунта: %1$s
+TikTok gives no country for this account	TikTok не сообщает страну этого аккаунта
+Couldn't get the country. Try again.	Не удалось узнать страну. Попробуйте ещё раз.
+Account country on profiles	Страна аккаунта в профилях
+A profile's share sheet gets an Account country button. It asks TikTok where that account is based, or where its latest videos were posted from.	В меню «Поделиться» профиля появляется кнопка «Страна аккаунта». Она спрашивает у TikTok, где находится этот аккаунт или откуда опубликованы его последние видео.
+Account country	Страна аккаунта
+Videos posted from %1$s	Страна публикации видео: %1$s
