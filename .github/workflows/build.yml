@@ -24,6 +24,10 @@ jobs:
       - name: Accept Android SDK licenses
         run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses || true
 
+      - name: Apply Smart stretch
+        run: |
+          if [ -f smart-stretch.zip ]; then unzip -o smart-stretch.zip; else echo "no smart-stretch.zip, building as is"; fi
+
       - name: Build the patch bundle
         env:
           GITHUB_ACTOR: ${{ github.actor }}
