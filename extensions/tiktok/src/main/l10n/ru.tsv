@@ -3044,3 +3044,18 @@ Account country on profiles	Страна аккаунта в профилях
 A profile's share sheet gets an Account country button. It asks TikTok where that account is based, or where its latest videos were posted from.	В меню «Поделиться» профиля появляется кнопка «Страна аккаунта». Она спрашивает у TikTok, где находится этот аккаунт или откуда опубликованы его последние видео.
 Account country	Страна аккаунта
 Videos posted from %1$s	Страна публикации видео: %1$s
+Long-press Profile for Activity center	Долгое нажатие на Профиль открывает Центр активности
+# context: Summary under that switch; Long-press Profile for Watch history is the row just above it
+Press and hold the Profile tab to open TikTok's Activity center. A tap on Profile works as before. While Long-press Profile for Watch history is on, that one takes the press.	Нажмите и удерживайте вкладку Профиль, чтобы открыть Центр активности TikTok. Обычное нажатие на Профиль работает как раньше. Пока включено «Долгое нажатие на Профиль открывает историю просмотров», нажатие занимает она.
+Share the video after a save	Делиться видео после сохранения
+# context: Summary under Share the video after a save, a switch in Downloads
+Opens Android's share sheet with the file as soon as a video is saved, video stories included, so you can send it straight to WhatsApp, Telegram or any other app. Picked videos saved together get the usual notice.	Открывает меню «Поделиться» Android с файлом сразу после сохранения видео, включая видеоистории, чтобы его можно было сразу отправить в WhatsApp, Telegram или любое другое приложение. Выбранные видео, сохранённые вместе, получают обычное уведомление.
+Caption spot in Clear display	Положение субтитров в чистом виде
+# context: A choice for Caption spot in Clear display: the kept caption stays where TikTok draws its own
+Where TikTok shows it	Там, где их показывает TikTok
+# context: The other choice for Caption spot in Clear display: the kept caption sits lower on the screen
+Lower, near the bottom	Ниже, у нижнего края
+# context: A switch on the Playback page beside Fit, Fill and Stretch: the video covers the screen with a little cropping and a little stretching
+Crop and stretch to fill the screen	Обрезать и растягивать на весь экран
+# context: Summary for Crop and stretch to fill the screen. Fill and Stretch are the names of the switches above it
+Cover the whole window with half the crop of Fill and half the stretch of Stretch, so neither is easy to spot. A video far from the screen's shape keeps TikTok's size.	Заполняет всё окно, обрезая вдвое меньше, чем «Заполнять», и растягивая вдвое меньше, чем «Растягивать», так что ни то, ни другое почти не заметно. Видео, форма которого сильно отличается от экрана, сохраняет размер TikTok.

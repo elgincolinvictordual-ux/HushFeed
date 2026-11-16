@@ -120,6 +120,9 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting KEEP_CAPTIONS_CLEAR_DISPLAY = new BooleanSetting("keep_captions_clear_display", FALSE);
     public static final IntegerSetting CAPTION_CLEAR_DISPLAY_OFFSET = new IntegerSetting(
             "caption_clear_display_offset", 0, Setting.parent(KEEP_CAPTIONS_CLEAR_DISPLAY)).withRange(0, 300);
+    /** Where the kept caption sits in Clear display: "tiktok" at TikTok's own caption spot, "bottom" lower, where the description was (#428). */
+    public static final StringSetting CAPTION_CLEAR_DISPLAY_SPOT = new StringSetting(
+            "caption_clear_display_spot", "tiktok", false, Setting.parent(KEEP_CAPTIONS_CLEAR_DISPLAY));
     /** The Accessibility page's Captions switch and the caption controls, where TikTok leaves them off (CaptionsAvailable). */
     public static final BooleanSetting KEEP_CAPTIONS_AVAILABLE = new BooleanSetting("keep_captions_available", FALSE, true);
     public static final BooleanSetting ALLOW_SCREEN_CAPTURE = new BooleanSetting("allow_screen_capture", FALSE, true);
@@ -170,6 +173,8 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting DOWNLOAD_WITHOUT_SOUND =
             new BooleanSetting("download_without_sound", FALSE);
     public static final BooleanSetting DOWNLOAD_PROGRESS = new BooleanSetting("download_progress", false);
+    /** Android's share sheet on the saved file once a video or story save finishes, in place of the banner (#423). */
+    public static final BooleanSetting SHARE_AFTER_SAVE = new BooleanSetting("share_after_save", FALSE);
     /** The Share to sheet TikTok opens a few seconds after its own downloader saves a video. */
     public static final BooleanSetting SKIP_POST_DOWNLOAD_SHARE_SHEET =
             new BooleanSetting("skip_post_download_share_sheet", FALSE);
@@ -330,6 +335,9 @@ public class Settings extends BaseSettings {
     /** Cover the window with the whole video by stretching it instead of cropping (#406). */
     public static final BooleanSetting STRETCH_VIDEO_TO_SCREEN =
             new BooleanSetting("stretch_video_to_screen", FALSE);
+    /** Cover the window with half the crop of fill and half the stretch of stretch (#421). */
+    public static final BooleanSetting BLEND_VIDEO_TO_SCREEN =
+            new BooleanSetting("blend_video_to_screen", FALSE);
     public static final BooleanSetting UNCAP_REFRESH_RATE =
             new BooleanSetting("uncap_refresh_rate", FALSE);
     /**
@@ -631,6 +639,8 @@ public class Settings extends BaseSettings {
      * accounts that press is TikTok's account switcher, which this takes over while it's on.
      */
     public static final BooleanSetting PROFILE_TAB_OPENS_WATCH_HISTORY = new BooleanSetting("profile_tab_opens_watch_history", FALSE);
+    /** A long press on the Profile tab opens TikTok's Activity center (#425), while Watch history's is off. */
+    public static final BooleanSetting PROFILE_TAB_OPENS_ACTIVITY_CENTER = new BooleanSetting("profile_tab_opens_activity_center", FALSE);
     /**
      * Holding the Profile tab opens TikTok's account switcher on accounts where TikTok left that
      * hold off (#388). TikTok's switch_account_gesture experiment answers yes, which is what puts
