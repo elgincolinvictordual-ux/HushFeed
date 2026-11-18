@@ -1,3 +1,7 @@
+/*
+ * Copyright 2026 Hushfeed contributors
+ * https://github.com/SysAdminDoc/hushfeed
+ */
 package app.morphe.extension.tiktok.live;
 
 import android.annotation.SuppressLint;
@@ -126,6 +130,7 @@ public final class LivePipRecord {
         shown = HIDDEN;
     }
 
+    @RequiresApi(26)
     private static int room(Activity activity) {
         if (activity == null) return ROOM;
         try {
@@ -159,7 +164,6 @@ public final class LivePipRecord {
     }
 
     /** A dot to record and a square to stop, drawn white like the window's other buttons. */
-    @RequiresApi(23)
     private static Icon icon(int state) {
         Bitmap bitmap = Bitmap.createBitmap(ICON_PX, ICON_PX, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bitmap);
